@@ -21,44 +21,48 @@
 </head>
 
 <body>
+    <div class="wrapper">
 
-    <!-- ==== Menu ==== -->
-    <nav role="navigation">
-        <div id="menuToggle">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
+        <!-- ==== Menu ==== -->
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
 
-            <ul id="menu">
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-                <a href="sobre.html">
-                    <li>Sobre</li>
-                </a>
-                <a href="alunos.html">
-                    <li>Alunos</li>
-                </a>
-                <a href="professor.html">
-                    <li>Professor</li>
-                </a>
-            </ul>
+                <ul id="menu">
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="sobre.html">
+                        <li>Sobre</li>
+                    </a>
+                    <a href="alunos.html">
+                        <li>Alunos</li>
+                    </a>
+                    <a href="professores.html">
+                        <li>Professores</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <section class="home">
+                <!-- ==== Partículas ==== -->
+                <div id="particles-js">
+                    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+                    <script src="script/particles.js"></script>
+                </div>
+
+                <!-- ==== Texto ==== -->
+                <div class='console-container'><span id='text'></span>
+                    <div class='console-underscore' id='console'>&#95;</div>
+                    <script src="script/textHome.js"></script>
+                </div>
+            </section>
         </div>
-    </nav>
-
-    <!-- ==== Partículas ==== -->
-    <div id="particles-js">
-        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-        <script src="script/particles.js"></script>
-    </div>
-
-    <!-- ==== Texto ==== -->
-    <div class='console-container'><span id='text'></span>
-        <div class='console-underscore' id='console'>&#95;</div>
-        <script src="script/textHome.js"></script>
-    </div>
-    </div>
 
 </body>
 

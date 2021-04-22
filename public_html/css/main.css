@@ -49,7 +49,7 @@ font-family: 'Anonymous Pro', monospace;
 .container img {
 display: block;
 margin: 20px auto;
-width: 1050px;
+width: 90%;
 }
 
 /*Alunos*/
@@ -63,7 +63,7 @@ font-family: 'Anonymous Pro', monospace;
 .container3 img {
 display: block;
 margin: 20px auto;
-width: 400px;
+width: 40%;
 }
 
 .container3 h2 {
@@ -91,7 +91,6 @@ font-size: 73px;
 .slash-1 {
 height: 10px;
 color: #5cd646;
-color: color;
 background-image: linear-gradient(-45deg,
   transparent,
   transparent 25%,
@@ -101,7 +100,7 @@ background-image: linear-gradient(-45deg,
   transparent 75%,
   currentColor 75%);
 background-size: 10px 10px;
-width: 1250px;
+width: 85%;
 }
 
 h1 {
@@ -114,7 +113,7 @@ h5.card-title {
 font-size: 17px;
 }
 
-/*Menu Hamburger*/
+/*Menu*/
 body {
 margin: 0;
 padding: 0;
@@ -214,9 +213,9 @@ transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
 #menu li {
-  padding: 10px 0;
-  font-size: 22px;
-  font-family: 'Anonymous Pro', monospace;
+padding: 10px 0;
+font-size: 22px;
+font-family: 'Anonymous Pro', monospace;
 }
 
 #menuToggle input:checked ~ ul {
