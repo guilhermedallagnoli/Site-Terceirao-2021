@@ -2,74 +2,117 @@
 <html>
 
 <head>
-    <title>Terceirão 2021</title>
+    <title>Terceirão - Escola S</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="lib/bootstrap-4.6.0-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/particles.css">
+    <link rel="stylesheet" href="css/texthome.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/responsividade.css" media="screen and (max-width: 768px)" />
 
-    <script src="lib/jquery-3.6.0.min.js"></script>
-    <script src="lib/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
-
-    <script src="https://use.fontawesome.com/d6f0ce64b0.js"></script>
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
-
-    <link rel="icon" href="img/fav-icon/icon.png" type="img" sizes="16x16">
+    <link rel="icon" href="images/fav-icon/icon.png" type="img" sizes="16x16">
 </head>
 
 <body>
-
-    <!-- ==== Menu ==== -->
-    <nav role="navigation">
-        <div id="menuToggle">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul id="menu">
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-                <a href="sobre.html">
-                    <li>Sobre</li>
-                </a>
-                <a href="alunos.html">
-                    <li>Alunos</li>
-                </a>
-                <a href="professores.html">
-                    <li>Professores</li>
-                </a>
-            </ul>
+    <!-- ===== Navbar ===== -->
+    <header>
+        <div class="container">
+            <img src="images/other/terceirao-2021.png" alt="logo-terceirao" />
+            <div class="menu-section">
+                <div class="menu-toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="alunos.html">Alunos</a>
+                        </li>
+                        <li>
+                            <a href="professores.html">Professores</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-    </nav>
+    </header>
 
-    <!-- ==== Matrix ====-->
-    <script src="script/matrix.js"></script>
-    <br><br>
+    <!-- ==== Slider ==== -->
+    <section class="hero">
+        <div class="container">
+            <div>
+                <h6>Professores:</h6>
+                <hr class="zig">
+                <hr class="zag">
+            </div>
+        </div>
+    </section>
 
-    <!-- ==== Texto ==== -->
-    <div class="container" id="texto-sobre">
-        <h2>Professores:</h2>
-        <br>
-        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.</h4>
-    </div>
-    <br>
+    <!-- ===== Cards ===== -->
+    <ul class="card-list">
 
-    <!-- ==== Imagem ==== -->
-    <div class="container3">
-        <img src="img/professor/2.jpg" alt="imagem turma">
-    </div>
-    <br><br><br><br><br><br><br><br>
+        <li class="card">
+            <img src="images/professores/roger.jpg" alt="roger" width="100%">
 
-    <hr class="slash-1">
+            <div class="card-body">
+                <h5 class="card-title">Roger Luiz Mota</h5>
+            </div>
+        </li>
 
+        <li class="card">
+            <img src="images/professores/kriga.jpg" alt="alexandre" width="100%">
+
+            <div class="card-body">
+                <h5 class="card-title">Alexandre Krieger</h5>
+            </div>
+        </li>
+
+        <li class="card">
+            <img src="images/professores/juliana.jpg" alt="juliana" width="100%">
+
+            <div class="card-body">
+                <h5 class="card-title">Juliana Costa Masera</h5>
+            </div>
+        </li>
+
+        <li class="card">
+            <img src="images/professores/joel.jpg" alt="joel" width="100%">
+
+            <div class="card-body">
+                <h5 class="card-title">Joel Paludo</h5>
+            </div>
+        </li>
+
+        <li class="card">
+            <img src="images/professores/wagner.jpg" alt="wagner" width="100%">
+
+            <div class="card-body">
+                <h5 class="card-title">Wagner Correia</h5>
+            </div>
+        </li>
+
+        <li class="card">
+            <img src="images/professores/fabiane.jpg" alt="fabiane" width="100%">
+
+            <div class="card-body">
+                <h5 class="card-title">Fabiane Alves da Silveira</h5>
+            </div>
+        </li>
+
+    </ul>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer></footer>
+
+    <!-- ===== JS ===== -->
+    <script src="scripts/cards.js"></script>
+    <script src="scripts/menu.js"></script>
 </body>
 
 </html>
