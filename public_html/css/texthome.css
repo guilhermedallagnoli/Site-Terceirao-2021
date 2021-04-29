@@ -4,11 +4,10 @@
   opacity:0;
 }
 .console-container {
- 
   font-family: 'Anonymous Pro', monospace;
   font-size:10em;
   text-align:center;
-  height:200px;
+  height:35px;
   width:100%;
   display:block;
   position:absolute;
@@ -25,7 +24,7 @@
   user-select: none;
 }
 .console-underscore {
-   display:inline-block;
+  display:inline-block;
   position:relative;
   top:-0.14em;
   left:10px;
